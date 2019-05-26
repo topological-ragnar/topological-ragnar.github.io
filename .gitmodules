@@ -4,3 +4,6 @@
 [submodule "nematic"]
 	path = nematic
 	url = https://github.com/enspiral-cherubi/nematic
+[submodule "hopf-explorer"]
+	path = hopf-explorer
+	url = https://github.com/enspiral-cherubi/hopf-explorer
