@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Erratic Nematics</title>
+    <link rel="stylesheet" href="../style/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+     <article>
+       <h1 id=""><a href="../nematic">Erratic Nematics</a></h1>
+       <p class="subtitle">2019</p>
+       <section>
+       <p>A <em>nematic phase</em> is a type of liquid crystal which retains orientational order while
+         lacking translational order. They are famous for their beauty.
+       </p>
+       <p><label for="mn-figure-1" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-figure-1" class="margin-toggle"/><span class="marginnote"><img src="../images/liquid-crystal.jpg" alt="A Nematic Liquid Crystal"/>Prof. Vance Williams, et al. of <em>Simon Frasier University.</em>  More images of liquid crystals can be found <a href="http://lcmicroscopy.weebly.com/lc-photogallery.html">here.</a></em></span></p>
+
+       <p> This <a href="https://threejs.org">three.js</a> project grew out of a faulty implementation
+         of a visualizer for these liquid crystals. However, I thought the unintended outcome of the initial
+         experiment was even more interesting than what I was expecting, so I developed it.
+       </p>
+       <p> The image is a grid of pillars each given an internal pair of indices. Then these indices are used to
+         define a rotation on that pillar about either the x, y, or z axes. One can choose the transformation
+         in the ``Rotations" menu on the upper-right. In modes you can change the speed of the transformation,
+         including reversing it, and ``followCamera" is a feature born out of a mysterious glitch. ``Framings" doesn't
+         do anything... yet.
+       </p>
+      <p>One can navigate the scene using <em>fly-controls</em>:</p>
+        <p><ul>
+          <li> <em>w,a,s,d</em>     <span style="float:right;">lateral movement</span></li>
+          <li> <em>q,e</em>     <span style="float:right;">roll</span></li>
+          <li> <em>r,f</em>     <span style="float:right;">vertical movement</span></li>
+          <li> <em>&uparrow; &downarrow; &leftarrow; &rightarrow;</em>  <span style="float:right;">pitch and yaw</span></li>
+        </ul></p>
+        <p> The code for this project is <a href="https://github.com/enspiral-cherubi/nematic">available on github</a>.
+        </p>
+         </section>
+     </article>
+     </body>
