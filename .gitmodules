@@ -7,3 +7,6 @@
 [submodule "hopf-explorer"]
 	path = hopf-explorer
 	url = https://github.com/enspiral-cherubi/hopf-explorer
+[submodule "kaleidoscopia"]
+	path = kaleidoscopia
+	url = https://github.com/enspiral-cherubi/kaleidoscopia
