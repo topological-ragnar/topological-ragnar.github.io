@@ -1,2 +1,2 @@
 theme: jekyll-theme-slate
-exclude: ['./README.md']
+exclude: ['./README.md', './readme.md']
