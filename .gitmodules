@@ -10,3 +10,6 @@
 [submodule "kaleidoscopia"]
 	path = kaleidoscopia
 	url = https://github.com/enspiral-cherubi/kaleidoscopia
+[submodule "bifurcation"]
+	path = bifurcation
+	url = https://github.com/topological-ragnar/bifurcation
